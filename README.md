@@ -8,9 +8,6 @@ This project is a mini web application built using HTML, CSS, and JavaScript tha
 Note: The Arbeitnow API returns job listings mainly from European countries (especially Germany and nearby EU regions). Therefore, the application naturally focuses on Europe-only job results, satisfying the assignment requirement.
 
 
-Note: The Arbeitnow API primarily provides job listings from European countries (mainly Germany and surrounding EU regions), therefore the application naturally focuses on Europe-only job results as required in the assignment.
-
-
 
 🚀 Features
 
