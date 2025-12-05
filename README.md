@@ -87,6 +87,8 @@ Single item detail view	✔
 Error handling	✔
 Clear output	✔
 Documentation	✔
+
+
 🏁 Conclusion
 
 This project demonstrates complete REST API integration in a web environment, including fetching data from multiple endpoints, storing data, dynamic UI updates, filtering, pagination, error handling, and displaying detailed information by ID — fulfilling all assignment goals.
