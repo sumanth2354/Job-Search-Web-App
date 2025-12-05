@@ -77,8 +77,8 @@ Then open:
 
 http://localhost:8000
 
-✔ Assignment Requirement Checklist
-Requirement	Status
+Assignment Requirement Checklist
+Requirement	Status    ✔ 
 Uses public REST API	✔
 Two different API endpoints	✔
 Stores/caches data	✔
