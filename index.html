@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Job Search – Arbeitnow API Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Job Search</h1>
+    <p class="subtitle">Powered by Arbeitnow Free Job Board API</p>
+  </header>
+
+  <main class="app-main">
+    <!-- Filters -->
+    <section class="filters">
+      <div class="filter-group">
+        <label for="searchInput">Search (title/company):</label>
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="e.g. React, Backend, Remote..."
+        />
+      </div>
+
+      <div class="filter-group">
+        <label for="locationSelect">Location:</label>
+        <select id="locationSelect">
+          <option value="">All locations</option>
+        </select>
+      </div>
+
+      <div class="filter-group checkbox-group">
+        <input type="checkbox" id="remoteOnly" />
+        <label for="remoteOnly">Remote only</label>
+      </div>
+
+      <button id="clearFiltersBtn" class="secondary-btn">Clear filters</button>
+    </section>
+
+    <!-- Status / error messages -->
+    <div id="statusMessage" class="status hidden"></div>
+
+    <!-- Job List + Details layout -->
+    <section class="content">
+      <div class="jobs-column">
+        <div id="jobsList" class="jobs-list">
+          <!-- Job cards rendered here -->
+        </div>
+
+        <div class="pagination">
+          <button id="loadMoreBtn" class="primary-btn">Load more jobs</button>
+        </div>
+      </div>
+
+      <aside class="details-column" id="detailsPanel">
+        <h2>Job details</h2>
+        <p class="hint">Select a job from the list to view details here.</p>
+        <div id="jobDetails"></div>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <small>Demo project for API assignment – Arbeitnow Job Board</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
